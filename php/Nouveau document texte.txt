@@ -1,0 +1,10 @@
+<?php
+$nom= $_POST['login'];
+$pass= $_POST['password'];
+echo "".$nom=."<br>".$pass;
+
+/*mysql_connect('localhost','root','');
+mysql_select_db('joomla1');
+mysql_query("update personnel set nom='$nom' ,prenom='$prenom', cin='$cin', sex='$sex', date_naissance='$date_n', tel='$tel', date_embauche='$date_e', situation_fam='$situation_fam', nbr_enfant=$nbr_enfant , salaire_base=$sb where num_p=$num");
+header("Location: http://localhost:8080/joomla1/index.php/sample-sites");*/
+?>
